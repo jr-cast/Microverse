@@ -1,4 +1,4 @@
-# learning-javascript
+# learning-JS
 
 * JavaScript is the world's most popular programming language.
 
@@ -6,4 +6,4 @@
 
 * JavaScript is easy to learn.
 
-This is a condensed version of the [W3school JavaScript tutorial](https://www.w3schools.com/js/default.asp) for reinforce my JavaScript learning
+This is a condensed collection of resources to reinforce my JavaScript learning
