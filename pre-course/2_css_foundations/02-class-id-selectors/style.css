@@ -1,0 +1,19 @@
+.odd {
+    background-color: pink;
+    font-family: Verdana, sans-serif;
+}
+
+#div1 {
+    color: blue;
+    font-size: 36px;
+}
+
+p:nth-of-type(2) {
+    font-size: 24px;
+}
+
+#div2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

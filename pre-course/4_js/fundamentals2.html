@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Assignment 2</h1>
+
+    <!-- <script>
+
+        let name = "neogeo"
+
+        // string quotes
+        alert(`hello ${1}`); // hello 1
+        alert(`hello ${"name"}`); // hello name
+        alert(`hello ${name}`); // hello neogeo
+
+    </script> -->
+
+    <!-- <button>Press me</button> -->
+
+    <script>
+        // const button = document.querySelector('button');
+
+        // function greet() {
+        //     const name = prompt('What is your name?');
+        //     alert(`Hello ${name}, nice to see you!`);
+        // }
+
+        // button.addEventListener('click', greet);
+
+        // const city = 'lOnDOn';
+
+        // const lower = city.toLowerCase();
+        // const first = lower[0];
+        // const Capitalized = first.toUpperCase() + lower.slice(1);
+
+        // // const Capitalized = lower.replace(first, first.toUpperCase());
+
+        // alert(city);
+        // alert(lower);
+        // alert(first);
+        // alert(Capitalized);
+    </script>
+    <!-- <script>
+        const list = document.querySelector('.output ul');
+        list.innerHTML = '';
+        const stations = ['MAN675847583748sjt567654;Manchester Piccadilly',
+            'GNF576746573fhdg4737dh4;Greenfield',
+            'LIV5hg65hd737456236dch46dg4;Liverpool Lime Street',
+            'SYB4f65hf75f736463;Stalybridge',
+            'HUD5767ghtyfyr4536dh45dg45dg3;Huddersfield'];
+
+        for (let station of stations) {
+            // write your code just below here
+            const code = station.slice(0, 3);
+            const semiColon = station.indexOf(';');
+            const name = station.slice(semiColon + 1);
+            const result = `${code}: ${name}`;
+            const listItem = document.createElement('li');
+            listItem.textContent = result;
+            list.appendChild(listItem);
+        }
+    </script> -->
+
+    <script>
+        // ask for user name
+        let user = prompt('Whos there?');
+
+        // check user
+        if (user === "Admin") {
+            let password = prompt('Password? ');
+            if (password === "TheMaster") {
+                alert('Welcome!')
+            } else {
+                alert('Wrong password')
+            }
+        } else if (user === '' || user === null) {
+            alert('Canceled!')
+        } else {
+            alert('I dont know you')
+        }
+
+        // Filling in a guest list
+        const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+        const admitted = document.querySelector('.admitted');
+        const refused = document.querySelector('.refused');
+
+        admitted.textContent = 'Admit: ';
+        refused.textContent = 'Refuse: ';
+
+        for (const person of people) {
+            if (person === 'Phil' || person === 'Lola') {
+                refused.textContent += `${person}, `;
+            } else {
+                admitted.textContent += `${person}, `;
+            }
+        }
+
+        refused.textContent = refused.textContent.slice(0, refused.textContent.length - 2) + '.';
+        admitted.textContent = admitted.textContent.slice(0, admitted.textContent.length - 2) + '.';
+    </script>
+
+</body>
+
+</html>

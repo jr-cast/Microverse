@@ -1,0 +1,260 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    /* background: #1f2937; */
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;   
+    padding-top: 16px;
+}
+
+.nav p, .nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo a{
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+ul a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.content {
+    background: #1f2937;
+    display: flex;
+    padding-left: 192px;
+    padding-right: 192px;
+    padding-top: 112px;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    max-width: 500px;
+    min-width: 500px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #e5e7eb;
+    flex:1;
+}
+
+.header .btn1 {
+    width: 150px;
+    background-color: #0275d8;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.image {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.image .img1 {
+    width: 550px;
+    height: 255px;
+    display: flex;
+}
+
+.btn1:hover {
+    background-color: #29df05c7;
+    transition: .25s;
+}
+
+.a1 {
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.one img,
+.two img,
+.three img,
+.four img
+ {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    border: 4px solid #0275d8;
+}
+.two img {
+    width: 200px;
+    border-radius: 10px;
+}
+.three img {
+    width: 200px;
+    border-radius: 10px;
+}
+.four img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.h1random {
+    text-align: center;
+    padding: 32px 0;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 112px;
+    flex-wrap: wrap;
+}
+
+.one, .two, .three, .four {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+    margin-right:32px;
+}
+
+.text {
+    padding-top: 8px;
+    text-align: center;
+}
+
+.quote {
+    max-width: 100%;
+    min-width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    flex-direction: column;
+}
+
+blockquote {
+    display: flex;
+    max-width: 60%;
+    height: 200px;
+    font-size: 36px;
+    font-style: italic;
+    flex-direction: column;
+}
+
+figcaption {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+}
+
+.author 
+{
+    max-width: 100%;
+    height: 200px;
+    font-size: 36px;
+    font-style: italic;
+    text-align: right;
+}
+.footer {
+    background: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    width: 75%;
+    height: 150px;
+    background: #3882f6;
+    margin: 32px 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.act h2{
+    font-size: 24px;
+    margin: 0;
+    color: #e5e7eb;
+} 
+
+.act p {
+    font-size: 18px;
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.btn2 {
+    width: 150px;
+    background-color: #0275d8;
+    padding: 8px 0;
+    border-radius: 1em;
+    border: 2px solid #e5e7eb;
+}
+
+.act {
+    min-height: 55px;
+    max-height: 55px;
+}

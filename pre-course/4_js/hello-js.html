@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    js test
+    <script>
+        //A JS hello world 
+        console.log("Hello Ramon!");
+    </script>
+
+    <script>
+        //VARIABLES
+        let message;
+
+        message = "This is a message"; // store a string in mesage variable 
+
+        alert(message); // show variable content
+
+        // // declare multiple vars in a single line (not recommended), multiple is best practice (easier to read)
+        // let user = 'Ramon', age = 32, msg = 'lol';
+
+        // // is value in var is change the old value is removed (erased)
+        // let mensaje;
+        // mensaje = 'hola';
+        // mensaje = 'whoops!';
+        // alert(mensaje);
+
+        // // we can copy data from var to another var
+        // let dave;
+        // dave = "smeghead";
+        // let holly;
+        // holly = dave;
+        // alert(dave);
+        // alert(holly);
+
+        // // A variable should be declare just once
+        // let uniquevar = 'dave';
+
+        // let uniquevar = 'something else'; // an error will pop out
+    </script>
+    <script>
+        //VARIABLE NAMING 
+        
+        //JS limitation
+        // 1. var names must contain only letters, digits or $ and _
+        // 2. First char must not be a digit
+        // valid names --> let userName; let test123; 
+
+        //JS is case-sensitive so lol and LoL are 2 differents vars
+        //There are reserved names such as 'let, return, class, function' 
+
+        //'use strict' can be enable but not recommended (dont allow to store data in vars without declaring var first)
+    </script>
+    <script>
+        // //CONSTANTS --> To declare a constant var (unchanging var, eg., gravity on earth)
+
+        // const GRAVITY = '9.81 m2/s'; //error will pop out if const value is modified
+        // alert(GRAVITY); 
+        
+        // //Its common to use aliases for difficult-to-remember values that are known prior execution 
+        // // example colors
+        // const COLOR_RED = '#F00';
+
+        // //when need to pick a color 
+        // let color = COLOR_RED;
+
+        // alert(color);
+
+        //uppercased constants are used for "hard-coded values", constant values determined during run-time are
+        //declare normally 
+        
+        //NAME THINGS RIGHT!
+        // A variable should have a clean, obvious meaning, describing the data that it stores
+        // Please, spend time thinking about the right name for a variable before declaring it
+    </script>
+
+    <!-- <script>
+        //TEST1 VARS
+        //1. Working with variables 
+        let admin; 
+        let name;
+        name = 'John';
+        admin = name; 
+        alert(admin);
+
+        //2. Giving the right name 
+        let ourPlanetName = 'Earth';
+        let current_user = 'Ramon';
+
+        //3. Uppercase const?
+        const BIRTHDAY = '07.09.1989';
+        const age = someCode(BIRTHDAY);
+    </script> -->
+
+    <script>
+        // let a = "" + 1 + 0; //turns to a string
+        // alert(typeof(a));
+
+        // let b = "" - 1 + 0; //is a number? strings can be added but not substracted
+        // alert(b); 
+        // alert(typeof(b)); 
+
+        // let c = false + true; // false = 0, true 1 --> 0 + 1 = 1
+        // alert(c);
+        // alert(typeof(c));
+
+        // let d = 6 / '3'; = 2, // String becomes Number
+        // alert(d);
+        // alert(typeof(d));
+
+        // let e = '2' * '3'; //strings become numbers
+        // alert(e);
+        // alert(typeof(e));
+
+        // let f = 4 + 5 + "px"; // sum result becomes a string
+        // alert(f);
+        // alert(typeof(f));
+
+        // let g = '$' + 4 + 5; // start with a char becomes a string
+        // alert(g);
+        // alert(typeof(g));
+
+        // let h = "4" - 2; // numbers in strings ops become numbers
+        // alert(h);
+        // alert(typeof(h));
+
+        // let i = "4px" - 2; // NaN / number type
+        // alert(i);
+        // alert(typeof(i));        
+
+        // let j = " -9 " + 5; // stringed number with spaces is not a number
+        // alert(j);
+        // alert(typeof(j));
+                
+        // let k = " -9 " - 5; // minus cant be use in strings, thus numer (-14)
+        // alert(k);
+        // alert(typeof(k));  
+        
+        // let l = null + 1; // null equals null (object) + 1 = 1, type number
+        // alert(l);
+        // alert(typeof(l));
+
+        // let m = undefined + 1; // NaN of number type
+        // alert(m);
+        // alert(typeof(m));
+
+        // let n = " \t \n" - 2; // -2 of number type
+        // alert(n);
+        // alert(typeof(n))
+
+        let a = prompt("First number?", );
+        let b = prompt("Second number?", );
+
+        alert(Number(a) + Number(b)); // or using (+a + +b) or +prompt()
+
+</script>;
+</body>
+
+</html>
