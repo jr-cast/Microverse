@@ -1,3 +1,3 @@
 # Microverse
 
-Microverse material and projects
+Learning material and projects
